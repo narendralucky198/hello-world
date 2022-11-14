@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<br>
     <meta charset="UTF-8">
     <title>My Fancy Page</title>
     <link rel="shortcut icon" href="favicon.ico"/>
