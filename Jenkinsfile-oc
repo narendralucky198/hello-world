@@ -13,8 +13,8 @@ spec:
       jenkinsfilePath: Jenkinsfile-oc
       env:
       - name: "LOGIN_URL"
-        value: "https://c103-e.us-south.containers.cloud.ibm.com"
-      - name: "LOGIN_PORT"
-        value: "32110"
+        value: "https://api.shared-na46.openshift.opentlc.com:6443"
+      - name: "PASSWORD"
+        value: "Narendra@143"
       - name: "PROJECT"
         value: "springclient-ns"' > spring-client-pipeline.yaml 
