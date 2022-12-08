@@ -1,7 +1,7 @@
-kind: "BuildConfig"
+echo 'kind: "BuildConfig"
 apiVersion: "v1"
 metadata:
-  name: "narendra-pipeline"
+  name: "spring-client-pipeline"
   namespace: springclient-ns
 spec:
   source:
@@ -10,7 +10,7 @@ spec:
       ref: "master"
   strategy:
     jenkinsPipelineStrategy:
-      jenkinsfilePath: Jenkinsfile-oc 
+      jenkinsfilePath: Jenkinsfile-oc
       env:
       - name: "LOGIN_URL"
         value: "https://c103-e.us-south.containers.cloud.ibm.com"
